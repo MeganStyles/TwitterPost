@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tweetinvi;
+using Tweetinvi.Exceptions;
 using Tweetinvi.Models;
 
 namespace TestTwitter
@@ -17,8 +18,7 @@ namespace TestTwitter
       public static string __AccessTokenSecret = ConfigurationManager.AppSettings["TwitterAuthSecret"];
 
       public static ITwitterCredentials GenerateCredentials() {
-         return new TwitterCredentials(__ConsumerKey, __ConsumerSecret, __AccessToken, __AccessTokenSecret);
-      }
-      
+          return new TwitterCredentials(__ConsumerKey, __ConsumerSecret, __AccessToken, __AccessTokenSecret);
+      } 
    }
 }
