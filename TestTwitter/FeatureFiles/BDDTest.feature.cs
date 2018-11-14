@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace TestTwitter
+namespace TestTwitter.FeatureFiles
 {
     using TechTalk.SpecFlow;
     
@@ -79,7 +79,7 @@ namespace TestTwitter
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 8
-   testRunner.Given("a tweet was posted with text like this \"twitter2\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+   testRunner.Given("a tweet was posted with text like this \"twitter3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
  testRunner.Then("the tweet should be posted with that text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

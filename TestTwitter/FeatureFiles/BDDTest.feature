@@ -5,5 +5,5 @@
 
 
 Scenario: Send a tweet
-   Given a tweet was posted with text like this "twitter2"
+   Given a tweet was posted with text like this "twitter3"
 	Then the tweet should be posted with that text

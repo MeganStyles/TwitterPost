@@ -147,19 +147,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BDDTest.feature.cs">
+    <Compile Include="FeatureFiles\BDDTest.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BDDTest.feature</DependentUpon>
     </Compile>
-    <Compile Include="Tests.cs" />
+    <Compile Include="StepDefinitions\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwitterAuth.cs" />
+    <Compile Include="Authorisation\TwitterAuth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="BDDTest.feature">
+    <None Include="FeatureFiles\BDDTest.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>BDDTest.feature.cs</LastGenOutput>
     </None>
